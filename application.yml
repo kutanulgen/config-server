@@ -1,6 +1,10 @@
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/microservices
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
 
 server:
   port: 0
